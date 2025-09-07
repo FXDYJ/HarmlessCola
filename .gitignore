@@ -1,0 +1,72 @@
+# Visual Studio 生成的文件
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+
+# Visual Studio 用户特定文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.DotSettings.user
+
+# Visual Studio Code 文件
+.vscode/
+
+# JetBrains Rider 文件
+.idea/
+
+# 构建结果
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# 配置文件（保留示例文件）
+Config.yml
+!Config.yml.example
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 包文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 不忽略的重要文件
+!using/*.dll
+!README.md
+!LICENSE
+!*.md
